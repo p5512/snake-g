@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.startPage{
+    width:100%;
+    height:800px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.startBtn{
+    width:200px;
+    height:170px;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    background-image: url('./img/startGame.png');
+    background-size:100% 100%;
+    cursor: pointer;
+}
+.wrapper{
+    width:100%;
+    height:800px;
+    position: relative;
+    background-image: url('./img/bg.jpg');
+    background-size:100% 100%;
+
+}
+.left-side{
+    position: absolute;
+    width:24%;
+    top:0;
+    left:0;
+    height:100%;
+}
+.left-side img{
+    margin-top:50px;
+    margin-left:50px;
+    display:none;
+}
+.main{
+    position: absolute;
+    width:50%;
+    height:100%;
+    left:25%;  
+    height:90%;
+    border:1px solid #000;
+}
+.header{
+    width:100%;
+    height:80px;
+    text-align:center;
+}
+.score{
+    line-height:80px;
+    height:80px;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+}
+.content{
+    position: absolute;
+    width:79.5%;
+    height:36.5%;
+    top:34%;
+    left:10%;
+    border:1px solid red;
+}
+.loser{
+    width:100%;
+    height:800px;
+    position: absolute;
+    top:0;
+    left:0;
+    display:none;
+
+}
+.con{
+    width:400px;
+    height:300px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    background-image: url('./img/startP.jpg');
+    background-size:100% 100%;
+    border-radius:20px;
+}
+.close{
+    position: absolute;
+    width:40px;
+    height:40px;
+    top:0;
+    right:0;
+    background-image: url('./img/closeBtn.png');
+    background-size:cover;
+}
+.con .loserScore{
+    position: absolute;
+    border:1px solid red;
+    width:60px;
+    height:30px;
+    top:42%;
+     left:40%;
+    color:#222;
+    font-size:30px;
+    font-weight:700;
+
+
+}
+.food{
+    background-image: url('./img/apple.png');
+    background-size:cover;
+}
+.head{
+    background-image: url('./img/head.png');
+    background-size:cover;
+}
+.body{
+    background-image: url('./img/body.png');
+    background-size:cover;
+}
